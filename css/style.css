@@ -1,0 +1,46 @@
+body{
+    background: #ccc
+}
+
+.content-center{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 20px
+}
+
+.todo{
+    list-style: none;
+    padding: 0;
+}
+
+.todo li{
+    margin-bottom: 10px;
+    border-bottom: #ccc 1px solid;
+}
+
+.todo li input{
+    width: initial;
+    margin-right: 10px;
+}
+
+.todo li.completo{
+    text-decoration: line-through;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#new-task{
+    width: 100%;
+    padding:10px 0;
+}
+
+.todo button{
+    width: initial;
+    color: white;
+    background: red;
+    float: right;
+    min-width: 30px;
+}
